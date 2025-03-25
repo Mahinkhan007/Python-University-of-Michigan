@@ -26,7 +26,7 @@ for line in fh:
     
 
 # sqlStr = 'SELECT org, count FROM Counts ORDER BY count DESC LIMIT 10'
-sqlStr = 'SELECT org, count FROM Counts ORDER BY count ASC'
+sqlStr = 'SELECT org, count FROM Counts ORDER BY count DESC'
 for row in cur.execute(sqlStr):
     print(( str(row[0]),row[1])) 
     

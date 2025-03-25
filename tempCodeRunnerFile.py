@@ -1,0 +1,1 @@
+print(name, artist, album, count, rating, length)
